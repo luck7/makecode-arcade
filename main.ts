@@ -1,10 +1,5 @@
-controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    music.baDing.play()
-    mySprite.startEffect(effects.spray, 500)
-})
-let mySprite: Sprite = null
 game.splash("Flashing Heart")
-mySprite = sprites.create(img`
+let mySprite = sprites.create(img`
     ....ffffff.........ccc..
     ....ff22ccf.......cc4f..
     .....ffccccfff...cc44f..
